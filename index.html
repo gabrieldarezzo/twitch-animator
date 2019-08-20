@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    
+  </head>
+  <body>
+
+    <img id="gifbox" src="assets/travolta.gif" alt="Travolta Lost something">
+    
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script>
+      require('electron')
+        .ipcRenderer
+        .on('gifSource', (event, gifUrl) => {
+          document.getElementById("gifbox").src = gifUrl
+        })
+    </script>
+  </body>
+</html>
