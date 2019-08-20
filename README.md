@@ -11,11 +11,10 @@ TODO:
 [ x ] - Rodar o serviço em Background  
 [ x ] - Deixar Full Screen ou centralizado  
 [   ] - Tray Icon  
-[   ] - Criar visualmente o Icon  
 [   ] - Cadastrar o Gif (Pasta)  
 [   ] - Mapear Atalhos  
 [   ] - Cadastrar os Atalhos  
-[   ] - Vincular 'Atalhos' X 'Gif'  
+[   ] - Vincular 'Atalhos (Ctr + NumPad-1)' X 'Gif AiQueDelicia.gif'  
 
 
 How To use:  
